@@ -18,6 +18,8 @@ mix.sass('src/sass/app.scss', 'public/css')
 })
 .extract('@fortawesome/fontawesome-free')
 .js('src/js/app.js', 'public/js')
+.copy('src/*.html', 'public/')
+.copy('src/favicon.ico', 'public/')
 .setPublicPath('public');
 
 // Full API
