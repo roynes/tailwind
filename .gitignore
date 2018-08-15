@@ -1,0 +1,5 @@
+node_modules/
+.idea/
+.vscode/settings.json
+package-lock.json
+public/mix-manifest.json
